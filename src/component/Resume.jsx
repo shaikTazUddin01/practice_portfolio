@@ -1,8 +1,9 @@
-import React from 'react';
+import { FaDownload } from "react-icons/fa";
+
 
 const Resume = () => {
     return (
-        <div className='max-w-4xl mx-auto mt-20 '>
+        <div className='max-w-4xl mx-auto my-20'>
             <section className='text-center pb-10'>
                 <h1 className='text-4xl font-semibold'>A Summary of Reseme</h1>
             </section>
@@ -56,6 +57,11 @@ const Resume = () => {
                         <div className='divider divider-neutral'></div>
                 </div>
             </section>
+         <div className='text-center '>
+         <button className='bg-yellow-500 py-3 px-4 font-bold text-xl text-white tect-center mx-auto rounded flex gap-2 items-center'>
+            <FaDownload></FaDownload>
+            Download CV</button>
+         </div>
         </div>
     );
 };
