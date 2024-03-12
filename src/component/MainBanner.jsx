@@ -1,5 +1,5 @@
 import DeveloperImg from '../assets/Developer.png'
-import bg from '../assets/Group 12.jpg'
+import bg from '../assets/Group 12.png'
 import user from '../assets/user.png'
 
 const MainBanner = () => {
@@ -15,10 +15,11 @@ const MainBanner = () => {
                 <h1 className='text-6xl font-bold'>Mary Hardy</h1>
                 <p className='text-[16px]'>Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
             </div>
-            <div className="w-[50%] cover h-[600px] z-10"
+            <div className="w-[50%] cover h-[600px]  relative z-0 flex justify-center items-center"
                 style={{ backgroundImage: `url(${bg})`}}
             >
-                <img src={user} alt="" className='w-[80%]' />
+                <img src={user} alt="" className='w-[80%] z-20' />
+                <img src={bg} alt="" className='absolute top-[200px] -z-10' />
             </div>
         </div>
     );
