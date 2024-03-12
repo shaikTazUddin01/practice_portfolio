@@ -8,7 +8,7 @@ const Navbar = () => {
         <li className="bg-yellow-500 text-white font-semibold rounded py-2 px-3"><button>Hire Me</button></li>
     </>
     return (
-        <div>
+        <div className="px-16">
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
